@@ -1381,6 +1381,11 @@ public final class Settings {
         public static final String SCREEN_BRIGHTNESS_MODE = "screen_brightness_mode";
 
         /**
+         * Control whether to enable automatic backlight dim.
+         */
+        public static final String SCREEN_BRIGHTNESS_AUTO_DIM = "screen_brightness_auto_dim";
+
+        /**
          * SCREEN_BRIGHTNESS_MODE value for manual mode.
          */
         public static final int SCREEN_BRIGHTNESS_MODE_MANUAL = 0;
