@@ -74,6 +74,9 @@
     <!-- BUILD TWEAKS. Volume adjust sound preference -->
     <integer name="def_volume_adjust_sounds_enabled">1</integer>
 
+    <!-- BUILD TWEAKS. type of volume overlay - Deaults to -1 so that detection occurs on first load -->
+    <integer name="def_volume_overlay_mode">-1</integer>
+
     <!-- Notifications use ringer volume -->
     <bool name="def_notifications_use_ring_volume">true</bool>
 
