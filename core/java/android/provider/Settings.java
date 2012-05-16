@@ -1901,7 +1901,11 @@ public final class Settings {
         */
         public static final String MVNO_ROAMING = "mvno_roaming";
 
-        /** @hide */
+        /**
+         * Display style of the status bar battery information
+         * Display battery percentage
+         * @hide
+         */
         public static final String STATUS_BAR_BATTERY = "status_bar_battery";
 
          /**
