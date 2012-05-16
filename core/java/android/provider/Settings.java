@@ -1901,7 +1901,10 @@ public final class Settings {
         */
         public static final String MVNO_ROAMING = "mvno_roaming";
 
-        /**
+        /** @hide */
+        public static final String STATUS_BAR_BATTERY = "status_bar_battery";
+
+         /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
