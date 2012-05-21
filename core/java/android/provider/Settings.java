@@ -1920,6 +1920,13 @@ public final class Settings {
          */
         public static final String VOLBTN_MUSIC_CONTROLS = "volbtn_music_controls";
 
+         /**
+         * Navigation controls to Use
+         *
+         * @hide
+         */
+        public static final String NAV_BUTTONS = "nav_buttons";
+
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
