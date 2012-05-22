@@ -1927,6 +1927,11 @@ public final class Settings {
          */
         public static final String NAV_BUTTONS = "nav_buttons";
 
+         /**
+         * Stores values for custom lockscreen targets
+         * @hide
+         */
+        public static final String LOCKSCREEN_TARGETS = "lockscreen_targets";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
