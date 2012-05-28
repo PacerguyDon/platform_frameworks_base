@@ -3602,7 +3602,6 @@ package android.app {
     field public static final int DEFAULT_SOUND = 1; // 0x1
     field public static final int DEFAULT_VIBRATE = 2; // 0x2
     field public static final int FLAG_AUTO_CANCEL = 16; // 0x10
-    field public static final int FLAG_FORCE_LED_SCREEN_OFF = 256; // 0x100
     field public static final int FLAG_FOREGROUND_SERVICE = 64; // 0x40
     field public static final int FLAG_HIGH_PRIORITY = 128; // 0x80
     field public static final int FLAG_INSISTENT = 4; // 0x4
@@ -17565,7 +17564,6 @@ package android.provider {
     field public static final java.lang.String RADIO_WIFI = "wifi";
     field public static final java.lang.String RINGTONE = "ringtone";
     field public static final java.lang.String SCREEN_BRIGHTNESS = "screen_brightness";
-    field public static final java.lang.String SCREEN_BRIGHTNESS_AUTO_DIM = "screen_brightness_auto_dim";
     field public static final java.lang.String SCREEN_BRIGHTNESS_MODE = "screen_brightness_mode";
     field public static final int SCREEN_BRIGHTNESS_MODE_AUTOMATIC = 1; // 0x1
     field public static final int SCREEN_BRIGHTNESS_MODE_MANUAL = 0; // 0x0
@@ -19238,8 +19236,6 @@ package android.telephony {
     method public boolean hasIccCard();
     method public boolean isNetworkRoaming();
     method public void listen(android.telephony.PhoneStateListener, int);
-    method public void toggle2G(boolean);
-    method public void toggleLTE(boolean);
     field public static final java.lang.String ACTION_PHONE_STATE_CHANGED = "android.intent.action.PHONE_STATE";
     field public static final int CALL_STATE_IDLE = 0; // 0x0
     field public static final int CALL_STATE_OFFHOOK = 2; // 0x2

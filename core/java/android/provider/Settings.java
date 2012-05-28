@@ -1382,6 +1382,7 @@ public final class Settings {
 
         /**
          * Control whether to enable automatic backlight dim.
+         * @hide
          */
         public static final String SCREEN_BRIGHTNESS_AUTO_DIM = "screen_brightness_auto_dim";
 
